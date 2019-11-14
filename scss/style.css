@@ -663,6 +663,7 @@ a:hover .button {
   display: flex;
   color: black;
   background: white;
+  border: 2px solid white;
   width: 30px;
   height: 30px;
   -webkit-box-pack: center;
@@ -673,6 +674,10 @@ a:hover .button {
   align-items: center;
   border-radius: 50%; }
 
+.social:hover {
+  background: transparent;
+  color: white; }
+
 .ul-social {
   list-style-type: none;
   display: -webkit-box;
@@ -681,6 +686,9 @@ a:hover .button {
 
 .ul-social li {
   padding-left: 10px; }
+
+.ul-social a:hover {
+  text-decoration: none; }
 
 .footer-left {
   color: white; }
