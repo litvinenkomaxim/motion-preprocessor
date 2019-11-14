@@ -10,6 +10,12 @@ h2 {
     text-align: center;
 }
 
+.quote h2 {
+    font-family: $main-font;
+    font-size: $main-font-size*1;
+    color: $third-color;
+}
+
 p {
     font-family: $main-font;
 }

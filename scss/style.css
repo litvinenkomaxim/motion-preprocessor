@@ -95,6 +95,11 @@ h2 {
   color: black;
   text-align: center; }
 
+.quote h2 {
+  font-family: "Itim", cursive;
+  font-size: 15px;
+  color: black; }
+
 p {
   font-family: "Itim", cursive; }
 
