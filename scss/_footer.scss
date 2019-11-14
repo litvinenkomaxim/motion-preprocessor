@@ -1,0 +1,37 @@
+.footer {
+  background: black;
+}
+
+.social {
+  box-sizing: border-box;
+  display: flex;
+  color: $third-color;
+  background: $secondary-color;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+.ul-social {
+  list-style-type: none;
+  display: flex;
+}
+
+.ul-social li {
+  padding-left: 10px;
+}
+
+.footer-left {
+  color: $secondary-color;
+}
+
+.ul-left {
+  list-style-type: none;
+}
+
+.ul-left span {
+  font-weight: 600;
+}

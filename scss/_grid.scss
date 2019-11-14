@@ -1,0 +1,59 @@
+header .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 22px 26px 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header .grid-item {
+    height: 100%;
+}
+
+.quote .grid {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote .grid .grid-item {
+    width: 50%;
+}
+
+.quote-right {
+    border-left: $primary-color solid 2px;
+    padding-left: 30px;
+
+}
+
+.header .grid-item {
+    height: 100%;
+}
+
+.cards-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+
+}
+
+.footer .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    padding: 35 px 0;
+}

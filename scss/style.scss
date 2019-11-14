@@ -1,0 +1,25 @@
+$primary-color: green;
+$secondary-color: white;
+$hover-color: #00e0d0;
+$third-color:black;
+
+
+$main-font: 'Itim',
+cursive;
+
+$main-font-size: 15px;
+
+@import "base.scss";
+@import "h1-h6-p";
+
+@import "grid.scss";
+@import "width";
+@import "button.scss";
+@import "nav.scss";
+@import "header.scss";
+@import "hero.scss";
+@import "quote.scss";
+@import "card.scss";
+@import "form.scss";
+@import "fonts";
+@import "footer";
